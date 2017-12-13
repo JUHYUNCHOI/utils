@@ -4,7 +4,7 @@
   "description": "This package.json is only used in this directory",
   "main": "./ResourceTypeManager.js",
   "scripts": {
-    "deleteTab": "sed -i $'s/\t/    /g' ./resources/*.raml",
+    "deleteTab": "sed -i $'s/\t/    /g' ./resources_types/*.raml",
     "parsing": "node ./ResourceTypeManager.js",
     "check": "node ./propertiesValidator.js"
   },
