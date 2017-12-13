@@ -1,0 +1,20 @@
+{
+  "name": "ssdk-resource-types-util",
+  "version": "0.0.1",
+  "description": "This package.json is only used in this directory",
+  "main": "./ResourceTypeManager.js",
+  "scripts": {
+    "deleteTab": "sed -i $'s/\t/    /g' ./resources/*.raml",
+    "parsing": "node ./ResourceTypeManager.js",
+    "check": "node ./propertiesValidator.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jsonlint": "^1.6.2",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "raml-1-parser": "^1.1.37"
+  }
+}
