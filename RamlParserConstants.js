@@ -1,6 +1,6 @@
 const RamlParserConstants = {
-    RESOURCE_TYPE_NAME_PATH: './resources',
-    RESOURCE_TYPES_PATH: './resources',
+    RESOURCE_TYPE_NAME_PATH: './resources_types',
+    RESOURCE_TYPES_PATH: './resources_types',
     RESOURCE_TYPES_FROM_RAML: './resourceTypesFromRaml.json',
 
 
