@@ -81,7 +81,7 @@ function validateProperties() {
 
                 result.noSchema.push({
                     method,
-                    rt
+                    resourceType
                 });
             }
         });
